@@ -1,11 +1,11 @@
 # dirUtils
 A collection of PHP functions for working with directories. 
 
-`v1.0`: `2023-01-24`  
+`v1.0`: `2023-01-30`  
 License: `AGPLv3`
 
 ## Functions:
-All functions are contained within the namespace `dirUtils`.
+All functions are contained within the namespace `dirUtils`. They do not require shell access.
 
 ### `copyDir($source, $destination, $child)`
 All contents of `$source` are recursively copied into `$destination`. `$destination` is created if it doesn't exist. If `$child` is specified, then contents of `$source` are copied into the directory `$destination/$child/`.
@@ -47,5 +47,5 @@ $zip = 'my_folder.zip';
 <br>
 
 ----
-Documentation updated: `2023-01-24`
+Documentation updated: `2023-01-31`
 
